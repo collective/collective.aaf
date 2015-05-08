@@ -3,6 +3,6 @@
   <version>0002</version>
   <description>Installs AAF authentication integration for a Plone portal.</description>
   <dependencies>
-    <dependency>profile-collective.pluggablelogin:default</dependency>
+    <dependency>profile-collective.shibboleth:default</dependency>
   </dependencies>
 </metadata>

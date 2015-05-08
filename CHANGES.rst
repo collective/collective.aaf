@@ -4,7 +4,14 @@ Changelog
 2.0 (unreleased)
 ----------------
 
-- Nothing changed yet.
+- **Backwards incompatibility**: because of the migration of portlet to
+  ``collective.shibboleth``, you need to remove the existing
+  ``collective.aaf`` portlet before upgrading.
+  [davidjb]
+- Refactor into ``collective.shibboleth`` and depend on that package.  This
+  package now adds just the AAF specific settings into Plone, extending
+  ``collective.shibboleth``.
+  [davidjb]
 
 
 1.5 (unreleased)

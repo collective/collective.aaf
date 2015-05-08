@@ -42,9 +42,7 @@ setup(name='collective.aaf',
       setup_requires=['setuptools-git'],
       install_requires=[
           'setuptools',
-          'collective.monkeypatcher',
-          'collective.pluggablelogin>=1.1',
-          'Products.AutoUserMakerPASPlugin>=1.0dev',
+          'collective.shibboleth',
           # -*- Extra requirements: -*-
       ],
       extras_require={'test': ['plone.app.testing']},

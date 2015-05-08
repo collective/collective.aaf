@@ -7,18 +7,9 @@
     i18n_domain="collective.aaf">
 
   <five:registerPackage package="." initialize=".initialize" />
-  <i18n:registerTranslations directory="locales" />
 
   <include package="Products.CMFCore" />
   <includeDependencies package="." />
-
-  <monkey:patch
-      description="This alerts the user of their temporary password."
-      class="Products.AutoUserMakerPASPlugin.auth.AutoUserMakerPASPlugin"
-      original="_generatePassword"
-      replacement=".auth._generatePassword"
-      preserveOriginal="true"
-      />
 
   <genericsetup:registerProfile
       name="default"
@@ -38,11 +29,5 @@
       />
 
   <!-- -*- extra stuff goes here -*- -->
-
-  <include package=".browser" />
-  
-
-  <include package=".portlets" />
-  
 
 </configure>
