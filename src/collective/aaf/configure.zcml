@@ -28,6 +28,15 @@
       handler=".upgrades.upgrade_0001_to_0002"
       />
 
+  <genericsetup:upgradeStep
+      source="*"
+      destination="0003"
+      title="Install collective.shibboleth and remove old portlet"
+      description="Install new dependencies with upgrade."
+      profile="collective.aaf:default"
+      handler=".upgrades.upgrade_all_to_0003"
+      />
+
   <!-- -*- extra stuff goes here -*- -->
 
 </configure>
