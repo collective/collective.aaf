@@ -15,7 +15,7 @@
     key="/"
     manager="collective.pluggablelogin"
     type="collective.shibboleth.portlets.ShibbolethLoginPortlet"
-    purge="True"
+    remove="True"
     />
 
 
