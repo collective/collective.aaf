@@ -14,7 +14,7 @@
     category="context"
     key="/"
     manager="collective.pluggablelogin"
-    type="collective.shibboleth.portlets.ShibbolethLoginPortlet"
+    type="collective.aaf.portlets.ShibbolethLoginPortlet"
     remove="True"
     />
 
