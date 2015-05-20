@@ -13,7 +13,8 @@ Features
 * Configures the underlying authentication plugin to load user data from
   the relevant AAF attributes.
 
-* Portlet value defaults are those from the AAF.
+Most heavy lifting is now carried out by ``collective.shibboleth`` so this
+package just depends upon that.
 
 Installation
 ============
