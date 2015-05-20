@@ -1,7 +1,7 @@
 Changelog
 =========
 
-2.0 (unreleased)
+2.0 (2015-05-20)
 ----------------
 
 - **Backwards incompatibility**: because of the migration of portlet to
