@@ -1,7 +1,7 @@
 Changelog
 =========
 
-2.1 (unreleased)
+2.1 (2016-01-21)
 ----------------
 
 - Changed `various` import step to be ZCML configured.
