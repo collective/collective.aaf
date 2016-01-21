@@ -19,6 +19,13 @@
       provides="Products.GenericSetup.interfaces.EXTENSION"
       />
 
+  <genericsetup:importStep
+      name="collective-aaf-various"
+      title="collective.aaf Various"
+      description="Various setup for collective.aaf"
+      handler=".setuphandlers.setupVarious">
+  </genericsetup:importStep>
+
   <genericsetup:registerProfile
       name="upgrade_portlet"
       title="collective.aaf"
