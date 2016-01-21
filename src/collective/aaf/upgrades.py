@@ -21,5 +21,7 @@ def upgrade_all_to_0003(context):
     qi = getToolByName(context, 'portal_quickinstaller')
     qi.installProduct('collective.shibboleth')
 
-    # Remove old portlet config
-    run_import_step(context, 'portlets')
+    # Remove old portlet config by importing profile
+    setup = getToolByName(context, 'portal_setup')
+    return setup.runImportStepFromProfile(
+        'profile-collective.aaf:upgrade_portlet', 'portlets')

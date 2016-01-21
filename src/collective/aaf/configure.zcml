@@ -19,6 +19,14 @@
       provides="Products.GenericSetup.interfaces.EXTENSION"
       />
 
+  <genericsetup:registerProfile
+      name="upgrade_portlet"
+      title="collective.aaf"
+      directory="profiles/upgrade_porlet"
+      description="Removes old AAF porlet"
+      provides="Products.GenericSetup.interfaces.EXTENSION"
+      />
+
   <genericsetup:upgradeStep
       source="*"
       destination="0002"
